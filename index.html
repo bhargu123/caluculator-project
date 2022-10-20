@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Caluculator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <form class="e">
+    <input type="text" id="be">
+  </form>
+    <table>
+      <tr>
+        <td><button onclick="clearscreen()" class="clear">C</td>
+        <td><button onclick="calculate('+')"class="text">+</td>
+        <td><button onclick="calculate('%')"class="text">%</td>
+        <td><button onclick="calculate('/')"class="text">/</td>
+      </tr>
+      <tr>
+        <td><button onclick="calculate(7)" class="text">7</td>
+        <td><button onclick="calculate(8)" class="text">8</td>
+        <td><button onclick="calculate(9)" class="text">9</td>
+        <td><button onclick="calculate('*')" class="text">*</td>
+      </tr>
+      <tr>
+        <td><button onclick="calculate(4)" class="text">4</td>
+        <td><button onclick="calculate(5)" class="text">5</td>
+        <td><button onclick="calculate(6)"class="text">6</td>
+        <td><button onclick="calculate('-')" class="text">-</td>
+      </tr>
+      <tr>
+        <td><button onclick="calculate(1)" class="text">1</td>
+        <td><button onclick="calculate(2)" class="text">2</td>
+        <td><button onclick="calculate(3)" class="text">3</td>
+        <td><button onclick="calculate(4)" class="text">+</td>
+      </tr>
+      <tr>
+        <td><button onclick="calculate(0)" class="text">0</td>
+        <td><button onclick="calculate('.')" class="text">.</td>
+        <td><button onclick="total()" class="equal">=</td>
+      </tr>
+    </table>
+  </div>
+</body>
+
+</html>
