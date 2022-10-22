@@ -2,15 +2,19 @@ html, body {
   height: 100%;
   width: 100%;
 }
+.input{
+  height: auto;
+}
 #ab{
   height:3cm;
   width:500px;
   background-color:black
 }
 table{
-  height:500px;
+  height:auto;
   width:500px;
   border: solid 5px;
+  box-sizing: border-box;
   border-color: white;
   padding:1rem;
   background-color: black;
@@ -18,7 +22,7 @@ table{
 }
  form input{
   width:490px;
-  height:3cm;
+  height:1cm;
   border-radius:12px;
 font-size:2.5rem;
   text-align:right;
@@ -29,23 +33,23 @@ tr{
   color:white;
 }
 td{
-  font-size: 2cm;
+  font-size: 0.5cm;
   padding:5%;
 
 }
 .text{
-  height:100px;
-  width:100px;
+  height:50px;
+  width:50px;
   background-color: grey;
   border-radius: 100%;
   color:white;
-  font-size:60px;
+  font-size:30px;
 }
 .clear,.equal{
-  height:100px;
-  width:100px;
+  height:50px;
+  width: 50px;
   background-color: grey;
   border-radius: 100%;
   color:white;
-  font-size:60px;
+  font-size:30px;
 }
